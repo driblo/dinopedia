@@ -28,9 +28,9 @@
 
 &#x20;
 
-1\. \*\*M0 — Scaffolding (½ day)\*\* — Flutter project, `flutter\_native\_splash` configured, 25 ARB files (English content, others stubbed), Riverpod + go\_router wired, Hive boxes opened, system bar config done, theme done.
+1\. \*\*M0 — Scaffolding (½ day)\*\* ✅ — Flutter project, `flutter\_native\_splash` configured, 25 ARB files (English content, others stubbed), Riverpod + go\_router wired, Hive boxes opened, system bar config done, theme done.
 
-2\. \*\*M1 — Catalog (1 day)\*\* — Load JSON, list with clade chips + search, DinoCard widget.
+2\. \*\*M1 — Catalog (1 day)\*\* ✅ — Load JSON, list with clade chips + search, DinoCard widget.
 
 3\. \*\*M2 — Detail (1 day)\*\* — WikiRepository + cache, DetailScreen with Hero, attribution, source link.
 
