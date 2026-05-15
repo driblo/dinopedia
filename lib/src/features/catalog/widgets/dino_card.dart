@@ -11,11 +11,14 @@ class DinoCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return Card(
-      clipBehavior: Clip.antiAlias,
-      child: InkWell(
-        onTap: onTap,
-        child: Column(
+    return Semantics(
+      button: true,
+      label: '${dino.name}, ${dino.clade}',
+      child: Card(
+        clipBehavior: Clip.antiAlias,
+        child: InkWell(
+          onTap: onTap,
+          child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             AspectRatio(
@@ -51,6 +54,7 @@ class DinoCard extends StatelessWidget {
               ),
             ),
           ],
+          ),
         ),
       ),
     );

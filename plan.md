@@ -32,15 +32,15 @@
 
 2\. \*\*M1 — Catalog (1 day)\*\* ✅ — Load JSON, list with clade chips + search, DinoCard widget.
 
-3\. \*\*M2 — Detail (1 day)\*\* — WikiRepository + cache, DetailScreen with Hero, attribution, source link.
+3\. \*\*M2 — Detail (1 day)\*\* ✅ — WikiRepository + cache, DetailScreen with Hero, attribution, source link.
 
-4\. \*\*M3 — Quiz (2–3 days)\*\* — QuizBuilder, state machine, ladder UI, lifelines, SFX, confetti, checkpoints.
+4\. \*\*M3 — Quiz (2–3 days)\*\* ✅ — QuizBuilder, state machine, ladder UI, lifelines, SFX, confetti, checkpoints.
 
-5\. \*\*M4 — Settings (½ day)\*\* — Language picker, Support page, License page, sound toggle.
+5\. \*\*M4 — Settings (½ day)\*\* ✅ — Language picker, Support page, License page, sound toggle.
 
-6\. \*\*M5 — Polish (1–2 days)\*\* — Animations, app icons, store listings, accessibility check, real-device test.
+6\. \*\*M5 — Polish (1–2 days)\*\* ⚙️ partial — Hero transition, semantics labels, AnimatedSwitcher between quiz phases. Pending real-device test, app icons, store listings (require platform tooling).
 
-7\. \*\*M6 — Translation pass\*\* — Send EN ARB out for SK + the rest; until then, fallback to EN is visible but acceptable.
+7\. \*\*M6 — Translation pass\*\* ⏳ — Send EN ARB out for SK + the rest; until then, fallback to EN is visible but acceptable. New strings introduced in M2–M4 live in `app_localizations_ext.dart` and need folding into ARB during this pass.
 
 \---
 
