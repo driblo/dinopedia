@@ -1,0 +1,16 @@
+{
+  "tiers": [
+    { "tier": 1, "points": 100,  "questions": 3, "label": "Hatchling" },
+    { "tier": 2, "points": 250,  "questions": 3, "label": "Juvenile" },
+    { "tier": 3, "points": 500,  "questions": 3, "label": "Adult" },
+    { "tier": 4, "points": 1000, "questions": 3, "label": "Alpha" },
+    { "tier": 5, "points": 2000, "questions": 3, "label": "Legend" }
+  ],
+  "checkpoints": [3, 6],
+  "lifelines": {
+    "fifty_fifty": 1,
+    "audience": 1,
+    "skip": 1
+  },
+  "distractor_strategy": "different_clade"
+}

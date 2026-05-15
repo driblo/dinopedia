@@ -1,0 +1,67 @@
+name: dinopedia
+description: "Dinosaur encyclopedia and quiz app for kids."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Local storage / caching
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+  # Network
+  http: ^1.3.0
+  cached_network_image: ^3.4.1
+  connectivity_plus: ^6.1.4
+
+  # Splash
+  flutter_native_splash: ^2.4.3
+
+  # Audio
+  just_audio: ^0.9.43
+
+  # UI extras
+  confetti: ^0.7.0
+  cupertino_icons: ^1.0.8
+
+  # Localisation
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  riverpod_generator: ^2.6.2
+  build_runner: ^2.4.15
+
+flutter_native_splash:
+  color: "#1a1a2e"
+  color_dark: "#1a1a2e"
+  image: assets/splash/splash_logo.png
+  android_12:
+    color: "#1a1a2e"
+    color_dark: "#1a1a2e"
+    image: assets/splash/splash_logo.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/
+    - assets/splash/
+    - assets/audio/
