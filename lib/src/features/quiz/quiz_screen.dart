@@ -2,7 +2,6 @@ import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../l10n/app_localizations.dart';
-import '../../l10n/app_localizations_ext.dart';
 import 'data/quiz_config.dart';
 import 'quiz_builder.dart';
 import 'quiz_controller.dart';

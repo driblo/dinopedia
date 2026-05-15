@@ -1,0 +1,29 @@
+Dinopedia is a calm, ad-free dinosaur encyclopedia and quiz for curious
+kids — and the grown-ups who get roped into a debate about which clade
+Spinosaurus belongs to.
+
+WHAT'S INSIDE
+• A growing catalog of dinosaurs across all the major clades —
+  Theropoda, Sauropoda, Ceratopsia, Thyreophora, Ornithopoda,
+  Pachycephalosauria, and prehistoric relatives like Mosasauridae
+  and Pterosauria.
+• Tap any card to see size, diet, period, clade, and a Wikipedia
+  summary fetched on demand and cached for offline reading later.
+• A five-tier quiz ladder — Hatchling, Juvenile, Adult, Alpha, Legend —
+  with three lifelines (50/50, Ask the Pack, Skip), checkpoints that
+  lock in your progress, and a quiet bit of confetti when you climb.
+
+DESIGNED FOR KIDS
+• No accounts, no ads, no tracking.
+• Localised in 25 languages (English, Slovak and Czech hand-translated;
+  the rest are scaffolded and being filled in).
+• Bottom system bar stays visible — no full-screen takeovers.
+
+OFFLINE-FRIENDLY
+Article summaries and images are cached for 30 days, so a long car ride
+without signal still works for everything you've opened before.
+
+OPEN SOURCE
+Built with Flutter. Open-source licences are listed inside Settings.
+If Dinopedia made someone smile, you can support development from the
+Settings screen — entirely optional, never nagged.

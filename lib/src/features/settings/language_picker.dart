@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../data/preferences.dart';
 import '../../l10n/app_localizations.dart';
-import '../../l10n/app_localizations_ext.dart';
 
 /// Display names for the locales we ship — shown in the language picker so a
 /// user can find their language even if the rest of the UI is in another one.

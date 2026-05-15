@@ -1,6 +1,5 @@
 {
   "@@locale": "sk",
-
   "appTitle": "Dinopédia",
   "splashSlogan": "Spoznaj obrov dávnej minulosti.",
   "navCatalog": "Katalóg",
@@ -44,5 +43,13 @@
   "errorGeneric": "Niečo sa pokazilo",
   "dietCarnivore": "Mäsožravec",
   "dietHerbivore": "Bylinožravec",
-  "dietOmnivore": "Všežravec"
+  "dietOmnivore": "Všežravec",
+  "settingsSystemDefault": "Systémový jazyk",
+  "@settingsSystemDefault": {},
+  "detailWikiUnavailable": "Detaily z Wikipédie sa nepodarilo načítať.",
+  "@detailWikiUnavailable": {},
+  "quizContinueCheckpoint": "Pokračovať z kontrolného bodu",
+  "@quizContinueCheckpoint": {},
+  "quizHighScore": "Najlepšie skóre",
+  "@quizHighScore": {}
 }

@@ -1,6 +1,5 @@
 {
   "@@locale": "cs",
-
   "appTitle": "Dinopédie",
   "splashSlogan": "Poznej obry dávné minulosti.",
   "navCatalog": "Katalog",
@@ -44,5 +43,13 @@
   "errorGeneric": "Něco se pokazilo",
   "dietCarnivore": "Masožravec",
   "dietHerbivore": "Bylinožravec",
-  "dietOmnivore": "Všežravec"
+  "dietOmnivore": "Všežravec",
+  "settingsSystemDefault": "Systémový jazyk",
+  "@settingsSystemDefault": {},
+  "detailWikiUnavailable": "Nepodařilo se načíst detaily z Wikipedie.",
+  "@detailWikiUnavailable": {},
+  "quizContinueCheckpoint": "Pokračovat z kontrolního bodu",
+  "@quizContinueCheckpoint": {},
+  "quizHighScore": "Nejlepší skóre",
+  "@quizHighScore": {}
 }

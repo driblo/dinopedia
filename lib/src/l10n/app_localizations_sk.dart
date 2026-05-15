@@ -149,4 +149,16 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get dietOmnivore => 'Všežravec';
+
+  @override
+  String get settingsSystemDefault => 'Systémový jazyk';
+
+  @override
+  String get detailWikiUnavailable => 'Detaily z Wikipédie sa nepodarilo načítať.';
+
+  @override
+  String get quizContinueCheckpoint => 'Pokračovať z kontrolného bodu';
+
+  @override
+  String get quizHighScore => 'Najlepšie skóre';
 }

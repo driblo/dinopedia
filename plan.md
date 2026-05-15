@@ -38,9 +38,9 @@
 
 5\. \*\*M4 — Settings (½ day)\*\* ✅ — Language picker, Support page, License page, sound toggle.
 
-6\. \*\*M5 — Polish (1–2 days)\*\* ⚙️ partial — Hero transition, semantics labels, AnimatedSwitcher between quiz phases. Pending real-device test, app icons, store listings (require platform tooling).
+6\. \*\*M5 — Polish (1–2 days)\*\* ✅ — Hero transition, semantics labels on cards/lifelines/options, AnimatedSwitcher between quiz phases, `flutter\_launcher\_icons` configured to generate platform icons from `assets/splash/splash\_logo.png`, store listings under `store/<locale>/` for EN + SK + CS. Real-device pass still belongs to the human running the build.
 
-7\. \*\*M6 — Translation pass\*\* ⏳ — Send EN ARB out for SK + the rest; until then, fallback to EN is visible but acceptable. New strings introduced in M2–M4 live in `app_localizations_ext.dart` and need folding into ARB during this pass.
+7\. \*\*M6 — Translation pass\*\* ✅ infra — The 4 strings added in M2–M4 (`settingsSystemDefault`, `detailWikiUnavailable`, `quizContinueCheckpoint`, `quizHighScore`) are now in all 26 ARB files and all 26 generated `app\_localizations\_*.dart` subclasses; EN + SK + CS are hand-translated, the other 22 carry the EN copy as scaffold per the plan. `app\_localizations\_ext.dart` is trimmed to the non-translatable `supportUrl` constant. Outbound translation for the remaining 22 locales is the only human-driven step left.
 
 \---
 

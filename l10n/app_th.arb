@@ -1,26 +1,25 @@
-﻿{
+{
   "@@locale": "th",
-
   "appTitle": "Dinopedia",
-  "@appTitle": { "description": "Application name shown in app bar" },
-
+  "@appTitle": {
+    "description": "Application name shown in app bar"
+  },
   "splashSlogan": "Meet the giants of long ago.",
-  "@splashSlogan": { "description": "Slogan displayed on the splash screen" },
-
+  "@splashSlogan": {
+    "description": "Slogan displayed on the splash screen"
+  },
   "navCatalog": "Catalog",
   "@navCatalog": {},
   "navQuiz": "Quiz",
   "@navQuiz": {},
   "navSettings": "Settings",
   "@navSettings": {},
-
   "catalogTitle": "Dinosaurs",
   "@catalogTitle": {},
   "catalogSearchHint": "Search dinosaursâ€¦",
   "@catalogSearchHint": {},
   "catalogFilterAll": "All",
   "@catalogFilterAll": {},
-
   "detailDiet": "Diet",
   "@detailDiet": {},
   "detailPeriod": "Period",
@@ -37,7 +36,6 @@
   "@detailLoadingWiki": {},
   "detailWikiAttribution": "Text from Wikipedia, licensed CC BY-SA",
   "@detailWikiAttribution": {},
-
   "quizTitle": "Dino Quiz",
   "@quizTitle": {},
   "quizStart": "Start Quiz",
@@ -47,13 +45,21 @@
   "quizQuestion": "Question {number} of {total}",
   "@quizQuestion": {
     "placeholders": {
-      "number": { "type": "int" },
-      "total": { "type": "int" }
+      "number": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
     }
   },
   "quizTier": "Tier {tier}",
   "@quizTier": {
-    "placeholders": { "tier": { "type": "int" } }
+    "placeholders": {
+      "tier": {
+        "type": "int"
+      }
+    }
   },
   "quizCorrect": "Correct!",
   "@quizCorrect": {},
@@ -65,7 +71,11 @@
   "@quizWin": {},
   "quizScoreLabel": "Score: {score}",
   "@quizScoreLabel": {
-    "placeholders": { "score": { "type": "int" } }
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
   },
   "quizLifelineFiftyFifty": "50/50",
   "@quizLifelineFiftyFifty": {},
@@ -79,7 +89,6 @@
   "@quizNeedsInternet": {},
   "quizOfflineHint": "Browse the catalog while offline â€” your progress is saved.",
   "@quizOfflineHint": {},
-
   "settingsTitle": "Settings",
   "@settingsTitle": {},
   "settingsLanguage": "Language",
@@ -92,21 +101,30 @@
   "@settingsLicenses": {},
   "settingsAppVersion": "Version {version}",
   "@settingsAppVersion": {
-    "placeholders": { "version": { "type": "String" } }
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
   },
-
   "errorNoInternet": "No internet connection",
   "@errorNoInternet": {},
   "errorRetry": "Retry",
   "@errorRetry": {},
   "errorGeneric": "Something went wrong",
   "@errorGeneric": {},
-
   "dietCarnivore": "Carnivore",
   "@dietCarnivore": {},
   "dietHerbivore": "Herbivore",
   "@dietHerbivore": {},
   "dietOmnivore": "Omnivore",
-  "@dietOmnivore": {}
+  "@dietOmnivore": {},
+  "settingsSystemDefault": "System default",
+  "@settingsSystemDefault": {},
+  "detailWikiUnavailable": "Couldn't load Wikipedia details.",
+  "@detailWikiUnavailable": {},
+  "quizContinueCheckpoint": "Continue from checkpoint",
+  "@quizContinueCheckpoint": {},
+  "quizHighScore": "Best score",
+  "@quizHighScore": {}
 }
-

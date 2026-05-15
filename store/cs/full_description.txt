@@ -1,0 +1,31 @@
+Dinopedia je klidná encyklopedie dinosaurů a kvíz pro zvědavé děti —
+i pro rodiče, které vtáhnou do debaty o tom, do které skupiny patří
+Spinosaurus.
+
+CO V APLIKACI NAJDEŠ
+• Postupně rostoucí katalog dinosaurů ze všech hlavních skupin —
+  Theropoda, Sauropoda, Ceratopsia, Thyreophora, Ornithopoda,
+  Pachycephalosauria a pravěké příbuzné jako Mosasauridae
+  či Pterosauria.
+• Klikni na libovolnou kartu a uvidíš velikost, potravu, období,
+  skupinu a souhrn z Wikipedie, který se stáhne a uloží do
+  vyrovnávací paměti pro pozdější offline čtení.
+• Pětistupňový kvíz — Mládě, Mladík, Dospělý, Alfa, Legenda —
+  se třemi pomůckami (50/50, Zeptej se smečky, Přeskoč), kontrolními
+  body, které zamknou tvůj postup, a trochou konfet při zdolání
+  nejvyšší úrovně.
+
+VYTVOŘENO PRO DĚTI
+• Bez účtů, bez reklam, bez sledování.
+• 25 jazyků (angličtina, slovenština a čeština ručně přeloženy;
+  ostatní se postupně doplňují).
+• Systémový panel zůstává viditelný — žádné celoobrazovkové převzetí.
+
+OFFLINE
+Souhrny a obrázky se ukládají na 30 dní, takže dlouhá cesta autem bez
+signálu stále funguje pro vše, co sis už jednou otevřel/-a.
+
+OPEN SOURCE
+Vytvořeno ve frameworku Flutter. Seznam licencí open-source knihoven
+najdeš v Nastavení. Pokud Dinopedia někomu vykouzlila úsměv, můžeš
+vývoj podpořit přímo z Nastavení — zcela dobrovolně, bez upomínek.

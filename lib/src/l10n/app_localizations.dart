@@ -407,6 +407,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Omnivore'**
   String get dietOmnivore;
+
+  /// No description provided for @settingsSystemDefault.
+  ///
+  /// In en, this message translates to:
+  /// **'System default'**
+  String get settingsSystemDefault;
+
+  /// No description provided for @detailWikiUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn't load Wikipedia details.'**
+  String get detailWikiUnavailable;
+
+  /// No description provided for @quizContinueCheckpoint.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue from checkpoint'**
+  String get quizContinueCheckpoint;
+
+  /// No description provided for @quizHighScore.
+  ///
+  /// In en, this message translates to:
+  /// **'Best score'**
+  String get quizHighScore;
 }
 
 class _AppLocalizationsDelegate

@@ -149,4 +149,16 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get dietOmnivore => 'Omnivore';
+
+  @override
+  String get settingsSystemDefault => 'System default';
+
+  @override
+  String get detailWikiUnavailable => 'Couldn\'t load Wikipedia details.';
+
+  @override
+  String get quizContinueCheckpoint => 'Continue from checkpoint';
+
+  @override
+  String get quizHighScore => 'Best score';
 }

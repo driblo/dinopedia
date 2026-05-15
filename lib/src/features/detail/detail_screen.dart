@@ -6,7 +6,6 @@ import '../../data/dino_model.dart';
 import '../../data/dino_repository.dart';
 import '../../data/wiki_repository.dart';
 import '../../l10n/app_localizations.dart';
-import '../../l10n/app_localizations_ext.dart';
 
 class DetailScreen extends ConsumerWidget {
   const DetailScreen({super.key, required this.dinoId});
