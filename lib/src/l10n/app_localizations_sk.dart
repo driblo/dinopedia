@@ -154,7 +154,8 @@ class AppLocalizationsSk extends AppLocalizations {
   String get settingsSystemDefault => 'Systémový jazyk';
 
   @override
-  String get detailWikiUnavailable => 'Detaily z Wikipédie sa nepodarilo načítať.';
+  String get detailWikiUnavailable =>
+      'Detaily z Wikipédie sa nepodarilo načítať.';
 
   @override
   String get quizContinueCheckpoint => 'Pokračovať z kontrolného bodu';

@@ -115,6 +115,9 @@ class _CladeChipsBar extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context);
     final selected = ref.watch(selectedCladeProvider);
+    final counts = ref.watch(cladeCountsProvider).asData?.value ?? {};
+    final allDinos = ref.watch(allDinosProvider);
+    final totalCount = allDinos.asData?.value.length;
 
     return ListView.separated(
       scrollDirection: Axis.horizontal,
@@ -123,16 +126,21 @@ class _CladeChipsBar extends ConsumerWidget {
       separatorBuilder: (_, _) => const SizedBox(width: 8),
       itemBuilder: (context, index) {
         if (index == 0) {
+          final label = totalCount != null
+              ? '${l10n.catalogFilterAll} ($totalCount)'
+              : l10n.catalogFilterAll;
           return FilterChip(
-            label: Text(l10n.catalogFilterAll),
+            label: Text(label),
             selected: selected == null,
             onSelected: (_) =>
                 ref.read(selectedCladeProvider.notifier).state = null,
           );
         }
         final clade = clades[index - 1];
+        final count = counts[clade];
+        final label = count != null ? '$clade ($count)' : clade;
         return FilterChip(
-          label: Text(clade),
+          label: Text(label),
           selected: selected == clade,
           onSelected: (chosen) => ref
               .read(selectedCladeProvider.notifier)

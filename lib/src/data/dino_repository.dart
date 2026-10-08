@@ -26,6 +26,6 @@ final allDinosProvider = FutureProvider<List<DinoModel>>((ref) async {
 
 final allCladesProvider = FutureProvider<List<String>>((ref) async {
   final dinos = await ref.watch(allDinosProvider.future);
-  final clades = <String>{for (final d in dinos) d.clade}.toList()..sort();
+  final clades = <String>{for (final d in dinos) if (d.clade != null) d.clade!}.toList()..sort();
   return clades;
 });

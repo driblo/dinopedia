@@ -417,7 +417,7 @@ abstract class AppLocalizations {
   /// No description provided for @detailWikiUnavailable.
   ///
   /// In en, this message translates to:
-  /// **'Couldn't load Wikipedia details.'**
+  /// **'Couldn\'t load Wikipedia details.'**
   String get detailWikiUnavailable;
 
   /// No description provided for @quizContinueCheckpoint.

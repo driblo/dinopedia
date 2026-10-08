@@ -8,6 +8,18 @@ final selectedCladeProvider = StateProvider<String?>((_) => null);
 /// Free-text search query for the catalog.
 final catalogQueryProvider = StateProvider<String>((_) => '');
 
+/// Map of clade → count of dinos in that clade.
+final cladeCountsProvider = Provider<AsyncValue<Map<String, int>>>((ref) {
+  final all = ref.watch(allDinosProvider);
+  return all.whenData((dinos) {
+    final counts = <String, int>{};
+    for (final d in dinos) {
+      if (d.clade != null) counts[d.clade!] = (counts[d.clade!] ?? 0) + 1;
+    }
+    return counts;
+  });
+});
+
 /// Filtered + searched list derived from the bundled catalog.
 final filteredDinosProvider = Provider<AsyncValue<List<DinoModel>>>((ref) {
   final all = ref.watch(allDinosProvider);
@@ -23,7 +35,7 @@ final filteredDinosProvider = Provider<AsyncValue<List<DinoModel>>>((ref) {
       result = result.where(
         (d) =>
             d.name.toLowerCase().contains(query) ||
-            d.clade.toLowerCase().contains(query),
+            (d.clade ?? '').toLowerCase().contains(query),
       );
     }
     return result.toList(growable: false);

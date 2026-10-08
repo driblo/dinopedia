@@ -43,7 +43,7 @@ class _DetailBody extends ConsumerWidget {
     final l10n = AppLocalizations.of(context);
     final locale = Localizations.localeOf(context);
     final summary = ref.watch(
-      wikiSummaryProvider((slug: dino.wikipediaSlug, locale: locale)),
+      wikiSummaryProvider((slug: dino.wikipediaSlug ?? '', locale: locale)),
     );
 
     return CustomScrollView(
@@ -175,7 +175,8 @@ class _FactGrid extends StatelessWidget {
   final AppLocalizations l10n;
 
   String _diet(DinoModel d, AppLocalizations l10n) {
-    switch (d.diet.toLowerCase()) {
+    if (d.diet == null) return '';
+    switch (d.diet!.toLowerCase()) {
       case 'carnivore':
         return l10n.dietCarnivore;
       case 'herbivore':
@@ -183,16 +184,16 @@ class _FactGrid extends StatelessWidget {
       case 'omnivore':
         return l10n.dietOmnivore;
       default:
-        return d.diet;
+        return d.diet!;
     }
   }
 
   @override
   Widget build(BuildContext context) {
     final facts = <(String, String)>[
-      (l10n.detailClade, dino.clade),
-      (l10n.detailPeriod, dino.period),
-      (l10n.detailDiet, _diet(dino, l10n)),
+      if (dino.clade != null) (l10n.detailClade, dino.clade!),
+      if (dino.period != null) (l10n.detailPeriod, dino.period!),
+      if (dino.diet != null) (l10n.detailDiet, _diet(dino, l10n)),
       if (dino.lengthM != null)
         (l10n.detailLength, '${dino.lengthM!.toStringAsFixed(1)} m'),
       if (dino.weightKg != null)
